@@ -21,7 +21,7 @@ button:hover {
 }
 
 button:active{
-    background-color: rgb(117, 200, 255);
+    background-color: rgb(117, 200, 255);   
 }
 
 input{
@@ -32,9 +32,17 @@ input{
 }
 
 #res{
-    margin: 25px;
+    margin: 10px;
 }
 
 #img img{
     width: 175px; 
+}
+
+p{
+    margin: 0px;
+}
+
+#p2{
+    color: red;
 }
