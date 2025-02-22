@@ -32,7 +32,7 @@ input{
 }
 
 #res{
-    margin: 10px;
+    margin: 20px;
 }
 
 #img img{
@@ -40,9 +40,9 @@ input{
 }
 
 p{
-    margin: 0px;
+    margin: 0px
 }
 
 #p2{
-    color: red;
+    color:red;
 }

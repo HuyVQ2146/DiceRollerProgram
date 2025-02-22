@@ -1,3 +1,5 @@
+console.log("Chọn 3 để chơi tài xỉu.")
+
 function rollDice(){
     const num = document.getElementById('num').value;
     const p1 = document.getElementById('p1');
@@ -23,12 +25,13 @@ function rollDice(){
     console.log(count); 
 
     p1.textContent = `Dice: ${values.join(', ')}` + ".";
-    if (count > 10) {
-        p2.textContent = `Tài!`;
-    }
-    else {
-        p2.textContent = `Xỉu!`;
+    if (num == 3) {
+        if (count > 10) {
+            p2.textContent = `Tài!`;
+        }
+        else {
+            p2.textContent = `Xỉu!`;
+        };
     };
-
     img.innerHTML = images.join('');
 }
